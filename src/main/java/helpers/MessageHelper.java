@@ -1,5 +1,5 @@
 package helpers;
 
-public class HelloWorldHelper {
+public class MessageHelper {
     public static String getMessage() { return "Hello, world"; }
 }

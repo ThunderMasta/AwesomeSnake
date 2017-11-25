@@ -1,6 +1,6 @@
 package controllers;
 
-import helpers.HelloWorldHelper;
+import helpers.MessageHelper;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,7 +10,7 @@ public class IndexController {
     @RequestMapping(value = "/")
     public String index(Model model)
     {
-        model.addAttribute("greetingString", HelloWorldHelper.getMessage());
+        model.addAttribute("message", MessageHelper.getMessage());
 
         return "index";
     }
