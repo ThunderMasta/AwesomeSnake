@@ -9,5 +9,8 @@
 <div class="message">
     ${message}
 </div>
+<div class="gameField">
+    Game field
+</div>
 </body>
 </html>
